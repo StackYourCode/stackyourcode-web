@@ -1,5 +1,18 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --orange: #e67e22;
+  --blue-moon: #2c3e50;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: helvetica, sans-serif;
+  color: var(--white);
+  font-size: 1em;
+  background: var(--orange);
 }
